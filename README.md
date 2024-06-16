@@ -51,8 +51,8 @@ Antes de começar, certifique-se de ter os seguintes itens instalados:
         - Clique em "Instalar WordPress"
      - Com a confirmação de instalação clique em acessar.
      - Logue com o usuario e senha escolhidos previamente.
-     - Acesse a pagina de plugins do wordpress e clique em ativar no pluguin do redis
-     - Confirme que o Redis está funcionando corretamente acessando a página de informações do Redis no WordPress.
+     - Acesse a pagina de plugins do wordpress e clique em ativar no pluguin do *Redis Object Cache*
+     - Confirme que o Redis está funcionando corretamente acessando a página de configurações do Redis no WordPress.
 
     
 ## Estrutura do Projeto
