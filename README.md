@@ -80,14 +80,14 @@ A configuração padrão expõe os seguintes serviços:
 
 ### Redis
 
-Redis é utilizado como cache para melhorar a performance do WordPress. Para configurar o WordPress para usar o Redis, é necessario adicionar o seguinte ao seu `wp-config.php`:
+Redis é utilizado como cache para melhorar a performance do WordPress. Para configurar o WordPress para usar o Redis, foi necessario adicionar o seguinte ao arquivo `wp/wp-config.php`:
 
 ```php
 define('WP_REDIS_HOST', 'redis');
 define('WP_REDIS_PORT', '6379');
 ```
 
-No entando esse passo não é necessario para o uso completo desse repositorio, visto que essa configuração ja esta inserida na pasta wp do projeto, e a mesa esta mapeada no docker
+*Esse passo não é necessario para o uso completo desse repositorio, visto que essa configuração ja esta inserida na pasta wp do projeto, e a mesa esta mapeada no docker*
 
 
 ### Prometheus
