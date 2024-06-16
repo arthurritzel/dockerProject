@@ -31,7 +31,7 @@ Antes de começar, certifique-se de ter os seguintes itens instalados:
 2. Clone o repositório:
 
     ```bash
-    git clone https://github.com/seu-usuario/dockerProject.git
+    git clone https://github.com/arthurritzel/dockerProject.git
     cd dockerProject
     ```
 
